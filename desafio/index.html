@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Desafio de Projeto</title>
+</head>
+<body>
+    <h1 id="inicio">Desafio de Projeto</h1>
+    <hr>
+    <h2>O que aprendi até aqui</h2>
+    <p>Veremos a seguir o que foi aprendido até aqui em html: vamos ver algumas tags e funcionalidades para criar uma
+        primeira página no HTML 5. Veremos a seguir!
+    </p>
+
+    <ul>
+        <li><a href="#ferramentas"><i>Ferramentas Usadas</i></a></li>
+        <li><a href="#inspetor"><i>Usando o Inspetor de Elementos</i></a></li>
+        <li><a href="#estrutura"><i>Estrutura básica do HTML</i></a></li>
+        <li><a href="#tags"><i>Falando sobre Tags</i></a></li>
+        <li><a href="#atributos"><i>Atributos básicos</i></a></li>
+        <li><a href="#executando"><i>Executando uma página HTML</i></a></li>
+        <li><a href="#textos"><i>Textos</i></a></li>
+        <li><a href="#listas"><i>Listas ordenadas e não ordenadas</i></a></li>
+        <li><a href="#links"><i>Links</i></a></li>
+    </ul>
+
+<hr>
+<h2 id="ferramentas">Ferramentas Usadas</h2>
+<small><a href="#inicio">(Voltar)</a></small>
+
+    <p>Para escrever-mos uma página em HTML5 vamos utilizar de uma IDE significa (Integrated Development Environment) ambiente de desenvolvimento integrado
+        muito conhecida o Visual Studio Code da Microsoft, podemos instalá-lo a partir do site:   
+    </p>
+
+    <a href="https://code.visualstudio.com/download" target="_blank">Clique aqui para baixar</a>
+
+    <p>Ao terminar de realizar o download e instalar, devemos procurar uma extensão que é 
+    <strong>Live Server</strong> ela serve para podermos visualizar a página através do navegador. Após instalar o VScode e encontrar
+    a extensão do live server, ja estmaos prontos para começar a criar nossas páginas. </p>
+
+<hr>
+
+<h2 id="inspetor">Usando o Inspetor de Elementos</h2>
+<small><a href="#inicio">(Voltar)</a></small>
+
+    <p>O inspetor de elementos é muito útil para verificarmos elementos de páginas de terceiros, assim como verificar como
+        está o código no e como estão distribuidos os elementos dentro do navegador, é uma ferramenta muito util, mas como usá-la?
+    </p>
+
+    <p>
+        Ao entrar no determinado site que queremos inspecionar, apertaremos <strong>F12</strong> no teclado ou clique nos 3 pontinhos
+        no canto superior direito da tela do navegador e clique em <strong>"ferramentas do desenvolvedor"</strong> e ira aparecer 
+        um console com diversos tipos de recursos.
+    </p>
+
+    <p>
+        Ao abrir o inspetor, você verá algumas seções principais. A área de HTML mostra a estrutura da página, e nela é possível editar 
+        as tags diretamente. Já a seção de CSS exibe os estilos aplicados ao elemento selecionado, permitindo que você altere, adicione 
+        ou remova regras em tempo real. Além disso, há o console para executar comandos JavaScript, a aba de rede para monitorar as requisições 
+        feitas pela página e a de performance, que analisa o desempenho, como o tempo de carregamento.
+    </p>
+    <p>
+        Com o inspetor, você pode testar mudanças em tempo real, depurar scripts, verificar o comportamento visual dos elementos e até simular 
+        a visualização da página em dispositivos móveis. É possível, por exemplo, alterar estilos para ver como uma página ficaria com um novo 
+        design, inspecionar margens e espaçamentos, ou monitorar o carregamento de imagens e scripts.
+        
+    </p>
+
+    <p>
+        Por fim, é importante lembrar que alterações feitas no inspetor não modificam permanentemente o site, apenas no navegador onde você está 
+        testando. Para aplicar mudanças permanentes, você deve replicá-las no código original no seu editor. O inspetor é uma excelente 
+        ferramenta de aprendizado, e explorá-lo sem medo ajuda muito no entendimento e desenvolvimento de páginas web.
+
+    </p>
+
+    <hr>
+
+<h2 id="estrutura">Estrutura básica do HTML</h2>
+<small><a href="#inicio">(Voltar)</a></small>
+
+    <p>A estrutura básica de um documento HTML segue uma hierarquia padrão que garante que navegadores interpretem corretamente o conteúdo da 
+        página. Aqui está um exemplo da estrutura básica:</p>
+
+        <img src="image.png" />
+
+    <p> A estrutura básica de um documento HTML começa com a declaração do tipo de documento: <code>&lt;!DOCTYPE html&gt;</code>. 
+        Em seguida, temos a tag <code>&lt;html&gt;</code>, que envolve todo o conteúdo. No cabeçalho, representado por 
+        <code>&lt;head&gt;</code>, estão metadados como <code>&lt;meta charset="UTF-8"&gt;</code>, garantindo a codificação correta, 
+        e <code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code>, que ajusta a página para dispositivos móveis. 
+        A tag <code>&lt;title&gt;</code> define o título da aba do navegador. Já no corpo, representado por <code>&lt;body&gt;</code>, 
+        fica todo o conteúdo visível ao usuário.</p>
+
+<hr>
+
+<h2 id="tags">Falando sobre Tags</h2>
+<small><a href="#inicio">(Voltar)</a></small>
+
+
+<p>Vamos falar de algumas Tags úteis e que server para formata um texto dentro do html também.</p>
+
+<p>A tag <code>&lt;i&gt;&lt;/i&gt;</code> é a tag que formata texto em itálico.</p>
+
+<p><code>&lt;strong&gt;&lt;/strong&gt;</code> deixa o texto em negrito.</p>
+
+<p><code>&lt;u&gt;&lt;/u&gt;</code>, de underline, significa texto sublinhado.</p>
+
+<p><code>&lt;mark&gt;&lt;/mark&gt;</code> marca o texto como se fosse um marca-texto.</p>
+
+<p>A tag <code>&lt;h1&gt;&lt;/h1&gt;</code> formata o texto entre as tags em um título principal. Conforme usamos <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, <code>&lt;h4&gt;</code>, até <code>&lt;h6&gt;</code>, transformamos os textos em subtítulos. Quanto maior o número, menor o título.</p>
+
+<p>A tag <code>&lt;blockquote&gt;&lt;/blockquote&gt;</code> é usada para marcar uma citação em HTML, destacando um trecho de texto de outra fonte.</p>
+
+<p>Podemos criar textos pequenos com a tag <code>&lt;small&gt;&lt;/small&gt;</code>. Isso é útil para destacar informações menores, como notas ou detalhes adicionais.</p>
+
+<p>A tag <code>&lt;hr&gt;</code> cria uma linha horizontal que separa seções ou conteúdos dentro da página.</p>
+
+<p>Além disso, podemos usar <code>&lt;sup&gt;&lt;/sup&gt;</code> para elevar um texto (como em potências matemáticas) e <code>&lt;sub&gt;&lt;/sub&gt;</code> para abaixá-lo (como em fórmulas químicas).</p>
+
+<p>Outras tags incluem:</p>
+<ul>
+    <li><code>&lt;font&gt;&lt;/font&gt;</code>: Personaliza fontes, cores e tamanhos (embora esteja obsoleta e não seja mais recomendada).</li>
+    <li><code>&lt;del&gt;&lt;/del&gt;</code>: Indica texto deletado ou obsoleto, riscando-o.</li>
+    <li><code>&lt;abbr&gt;&lt;/abbr&gt;</code>: Define abreviações, mostrando o significado completo ao passar o cursor sobre o texto.</li>
+</ul>
+
+
+<hr>
+
+
+<h2 id="atributos">Atributos básicos</h2>
+<small><a href="#inicio">(Voltar)</a></small>
+
+
+<p>Os atributos são usados para personalizar as tags HTML, adicionando informações ou configurando como os elementos devem se comportar. Por exemplo, o atributo <code>id</code> é utilizado para identificar um elemento único na página, como em <code>&lt;div id="minha-div"&gt;&lt;/div&gt;</code>.</p>
+
+<p>Outro atributo comum é o <code>class</code>, que permite agrupar elementos para aplicar estilos ou comportamentos iguais. Por exemplo: <code>&lt;p class="texto-destaque"&gt;Este é um parágrafo&lt;/p&gt;</code> define um parágrafo com uma classe chamada "texto-destaque".</p>
+
+<p>O atributo <code>src</code> é utilizado para indicar o caminho de arquivos externos, como imagens. Um exemplo seria: <code>&lt;img src="caminho-da-imagem.jpg" alt="Descrição da imagem"&gt;</code>. Já o atributo <code>href</code> é usado para links, como em <code>&lt;a href="https://exemplo.com"&gt;Clique aqui&lt;/a&gt;</code>, que define a URL para a qual o link apontará.</p>
+
+<p>Para acessibilidade, o atributo <code>alt</code> em imagens descreve seu conteúdo, ajudando leitores de tela. Por exemplo: <code>&lt;img src="foto.jpg" alt="Uma foto de um gato"&gt;</code>.</p>
+
+<p>Além disso, o atributo <code>title</code> adiciona uma dica ou descrição curta que aparece quando o usuário passa o cursor sobre o elemento. Exemplo: <code>&lt;button title="Clique aqui para enviar"&gt;Enviar&lt;/button&gt;</code>.</p>
+
+<hr>
+
+
+<h2 id="executando">Executando uma página HTML</h2>
+<small><a href="#inicio">(Voltar)</a></small>
+
+<p>Para executar uma página HTML utilizando o Visual Studio Code (VSCode) e a extensão <strong>Live Server</strong>, o primeiro passo é instalar o VSCode em seu 
+ computador, caso ainda não o tenha feito. Basta acessar o site oficial do <strong>Visual Studio Code</strong>, baixar e instalar o software conforme o sistema operacional que você usa.</p>
+ 
+ <p>Após a instalação do VSCode, abra o programa e vá até a barra lateral esquerda, onde encontrará o ícone de <strong>Extensões</strong>. Nela, busque por <strong>Live Server</strong> e clique em <strong>Instalar</strong> quando encontrar a extensão correspondente.</p>
+ 
+ <p>Uma vez instalada a extensão, você pode começar a trabalhar em sua página HTML. Crie um novo arquivo no VSCode e escreva o código HTML que deseja visualizar. Por exemplo, crie uma estrutura básica de HTML com as tags principais, como <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, <code>&lt;body&gt;</code>, e adicione um título e algum conteúdo no corpo da página. Após escrever o código, salve o arquivo com a extensão <code>.html</code>, por exemplo, <strong>index.html</strong>. Com o arquivo HTML salvo, você pode visualizar sua página diretamente no navegador.</p>
+ 
+ <p>Para isso, clique com o botão direito sobre o arquivo no VSCode e escolha a opção <strong>Open with Live Server</strong>. Isso abrirá o arquivo em uma nova aba no navegador. Você também pode clicar no botão <strong>Go Live</strong>, que fica no canto inferior direito da interface do VSCode, para iniciar o servidor local. Assim que o servidor for iniciado, o navegador será automaticamente atualizado para mostrar a página.</p> 
+ 
+ <p>Uma das principais vantagens do <strong>Live Server</strong> é que ele permite que você veja as mudanças feitas no código em tempo real. Isso significa que, toda vez que você fizer uma alteração no arquivo HTML e salvar, o navegador será atualizado automaticamente, sem a necessidade de recarregar a página manualmente. Isso torna o processo de desenvolvimento muito mais rápido e dinâmico, já que você pode ver os efeitos das modificações imediatamente. Quando terminar de editar, você pode parar o servidor clicando novamente no botão <strong>Go Live</strong> ou simplesmente fechando a aba do navegador onde a página está aberta. Caso queira finalizar o servidor, basta clicar com o botão direito no arquivo e escolher a opção <strong>Stop Live Server</strong>. Com o <strong>Live Server</strong>, o processo de criação e teste de páginas HTML no VSCode fica mais ágil e eficiente, oferecendo uma experiência de desenvolvimento mais fluida.</p>
+
+
+<hr>
+
+<h2 id="textos">Textos</h2>
+<small><a href="#inicio">(Voltar)</a></small>
+
+<p>Em HTML, os títulos são definidos utilizando as tags <code>&lt;h1&gt;&lt;/h1&gt;</code>, <code>&lt;h2&gt;&lt;/h2&gt;</code>, até <code>&lt;h6&gt;&lt;/h6&gt;</code>, onde <code>&lt;h1&gt;</code> representa o título principal, e à medida que o número aumenta, o título se torna progressivamente menor. Essas tags ajudam a estruturar o conteúdo, indicando a importância de cada seção ou subseção na página.</p>
+
+<p>O <code>&lt;h1&gt;</code> é normalmente usado para o título principal da página ou seção, enquanto as outras tags são usadas para subtítulos, criando uma hierarquia visual e semântica no conteúdo. O uso dessas tags facilita a organização e torna o conteúdo mais acessível para leitores e motores de busca.</p>
+
+<p>Além disso, ao utilizar essas tags, você melhora a acessibilidade e otimiza o SEO (otimização para motores de busca), pois os motores de busca reconhecem a estrutura hierárquica e relevância dos títulos. Isso ajuda a garantir que seu conteúdo seja encontrado e bem interpretado pelos mecanismos de pesquisa.</p>
+
+<p>Quando combinados com outras tags de formatação, como o uso de <code>&lt;strong&gt;</code> para negrito ou <code>&lt;em&gt;</code> para itálico, você pode aprimorar ainda mais a apresentação do texto. As tags de título, juntamente com a formatação adequada, tornam seu conteúdo mais organizado e visualmente atraente.</p>
+
+<hr>
+
+
+<h2 id="listas">Listas ordenadas e não ordenadas</h2>
+<small><a href="#inicio">(Voltar)</a></small>
+
+<p>Para criar uma lista ordenada, utilizamos a tag <code>&lt;ol&gt;&lt;/ol&gt;</code>, que significa "ordered list" (lista ordenada). No entanto, ela precisa de tags filhas <code>&lt;li&gt;&lt;/li&gt;</code> para definir cada item da lista. Por exemplo:</p>
+
+<p><code>&lt;ol&gt;</code></p>
+<p><code>&lt;li&gt;Item 1&lt;/li&gt;</code></p>
+<p><code>&lt;li&gt;Item 2&lt;/li&gt;</code></p>
+<p><code>&lt;/ol&gt;</code></p>
+
+<p>Se preferirmos uma lista não ordenada, basta trocar <code>&lt;ol&gt;</code> por <code>&lt;ul&gt;</code>, que significa "unordered list" (lista não ordenada).</p>
+
+<hr>
+
+
+<h2 id="links">Links</h2>
+<small><a href="#inicio">(Voltar)</a></small>
+
+<p>Para criar links em HTML, utilizamos a tag <code>&lt;a&gt;&lt;/a&gt;</code>, que é conhecida como âncora. Por exemplo: <code>&lt;a href="http://dio.me"&gt;Dio.me&lt;/a&gt;</code>. Isso cria um link que direciona o usuário para o site da Dio.</p>
+
+<p>Se quisermos abrir o link em uma nova guia do navegador, podemos usar o atributo <code>target</code> com o valor <code>_blank</code>. Por exemplo: <code>&lt;a href="http://dio.me" target="_blank"&gt;Dio.me&lt;/a&gt;</code>. Já o valor <code>_self</code> é o comportamento padrão e abre o link na mesma página.</p>
+
+<p>Para criar navegação dentro da mesma página, utilizamos a tag <code>&lt;a&gt;</code> com ancoragem utilizando <code>#</code> seguido do valor de um <code>id</code> previamente definido. Por exemplo: <code>&lt;a href="#surgimento"&gt;Surgimento da Internet&lt;/a&gt;</code> e, no local de destino, colocamos <code>&lt;h2 id="surgimento"&gt;Surgimento da Internet&lt;/h2&gt;</code>.</p>
+
+</body>
+</html>
